@@ -1,0 +1,41 @@
+body  {
+    margin:0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fbefdf;
+    padding:0 20px;
+    position: sticky;
+    top: 0;
+}
+.logo {
+    font-size: 1.8rem;
+    color: ##462e25;
+}
+.logo p {
+    padding: 0;
+    margin: 0;
+}
+span   {
+    color: #8d6852;
+}
+nav {
+    font-size: 1.2rem;
+    font-family: 'Poppins',sans-serif;
+}
+nav li {
+    display:  inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+nav li:hover {
+    background-color: #b2b2b2;
+}
+
+nav li a {
+    color: #060608;
+    text-decoration: none;
+}
