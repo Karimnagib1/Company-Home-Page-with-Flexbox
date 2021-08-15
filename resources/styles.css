@@ -2,6 +2,8 @@ body  {
     margin:0;
     padding: 0;
 }
+
+/* header styles */
 header{
     display: flex;
     justify-content: space-between;
@@ -13,11 +15,12 @@ header{
 }
 .logo {
     font-size: 1.8rem;
-    color: ##462e25;
+    color: #462e25;
 }
 .logo p {
     padding: 0;
     margin: 0;
+    font-weight: bold;
 }
 span   {
     color: #8d6852;
@@ -38,4 +41,33 @@ nav li:hover {
 nav li a {
     color: #060608;
     text-decoration: none;
+}
+
+/* main styles */
+main   {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* mission styles */
+.mission    {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    background-image: url('images/mission-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.missionh {
+    background-color: #fbefdf;
+    text-align: center;
+    width: 100%; 
+}
+.missionh h1  {
+    font-size: 1.8rem;
+    font-family: 'Roboto' , sans-serif;
+    color: #462e25;
+}
+.missionh p {
+    padding:  10px;
 }
