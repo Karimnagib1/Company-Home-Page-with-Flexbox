@@ -1,6 +1,7 @@
 body  {
     margin:0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* header styles */
@@ -17,6 +18,7 @@ header{
 .logo {
 
     color: #462e25;
+    font-family: serif;
 }
 .logo h1 {
     padding: 0;
@@ -126,9 +128,28 @@ main   {
     justify-content: center;
     align-items: center;
     background-color: #fbefdf;
+    margin-bottom: 0;
 
 }
 
 .name {
     font-weight: bold;
+}
+
+
+/* footer */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #b2b2b2;
+    margin-top: 0;
+}
+footer p {
+padding: 19.2px;
+margin: 0;
+text-align: center;
+max-width: 100%;
 }
