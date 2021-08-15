@@ -17,10 +17,10 @@ header{
     font-size: 1.8rem;
     color: #462e25;
 }
-.logo p {
+.logo h1 {
     padding: 0;
     margin: 0;
-    font-weight: bold;
+    font-size: 2.5rem;
 }
 span   {
     color: #8d6852;
@@ -59,15 +59,50 @@ main   {
     background-size: cover;
 }
 .missionh {
-    background-color: #fbefdf;
+    background-color: white;
     text-align: center;
     width: 100%; 
 }
-.missionh h1  {
-    font-size: 1.8rem;
+ h2  {
+     width: 100%;
+    font-size: 2.1rem;
     font-family: 'Roboto' , sans-serif;
-    color: #462e25;
+    text-align: center;
+    color:  #8d6852;
+    
 }
 .missionh p {
     padding:  10px;
+}
+
+
+/* products styles */
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1300px;
+    overflow: hidden;
+    margin: 40px auto;
+    align-items: baseline;
+}
+.box {
+    width: 23rem;
+    margin: 20px;
+}
+.img-container {
+    width: 100%;
+    overflow: hidden;
+}
+.img-container img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+.box p {
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif ;
+    font-size: 1.4rem;
 }
