@@ -12,15 +12,27 @@ header{
     padding:0 20px;
     position: sticky;
     top: 0;
+    box-shadow: 0 1px 5px 0 #b2b2b2;
 }
 .logo {
-    font-size: 1.8rem;
+
     color: #462e25;
 }
 .logo h1 {
     padding: 0;
     margin: 0;
     font-size: 2.5rem;
+}
+@media only screen and (max-width: 567px){
+    .logo h1   {
+        padding: 20px;
+    }
+    header {
+        justify-content: center;
+    }
+    nav {
+        display: none;
+    }
 }
 span   {
     color: #8d6852;
@@ -105,4 +117,18 @@ main   {
     text-align: center;
     font-family: 'Poppins', sans-serif ;
     font-size: 1.4rem;
+}
+
+/* team */
+.team   {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbefdf;
+
+}
+
+.name {
+    font-weight: bold;
 }
